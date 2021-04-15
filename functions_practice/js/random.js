@@ -38,3 +38,22 @@ function max (num1, num2){
   }
 }
 console.log(max(3, 15));
+
+/**
+ * Returns a random number between two numbers.
+ *
+ * @param {number} lower - The lowest number value.
+ * @param {number} upper - The highest number value.
+ * @return {number} The random number value.
+ */
+function getRandomNumber(lower, upper){
+  if (isNaN(lower) || isNaN(upper)){
+  throw Error('Both arguments must be numbers!');
+  }
+  const RandomNumber = Math.floor(Math.random() * (upper - lower + 1)) + lower;
+  return RandomNumber;
+}
+// Call the function and pass it different values
+console.log(getRandomNumber(4, 12));
+console.log(`${getRandomNumber(10, 100)} is a random number between 10 and 100`);
+console.log(getRandomNumber(300, 'four hundred'));

@@ -78,4 +78,7 @@ Keep in mind that you don't have to install any extra tools to simply use the JS
 
 Using a consistent and descriptive commenting approach makes your functions more predictable. Other developers who need to learn about your functions will have a faster and easier way to identify each part of a function.
 
-** JSDoc cheat sheet _https://devhints.io/jsdoc_ **
+**JSDoc cheat sheet _https://devhints.io/jsdoc_**
+
+When calling a function with default parameters, which keyword acts as a placeholder for the argument you want to skip?
+***undefined***
