@@ -8,7 +8,7 @@ while(counter < 10){
   counter += 1;
 }
 
-//Infinite Loops
+//Infinite Loops!!!!
 
 //The counter starts at 0 and increases each time through the loop.
 //Since counter will always be greater than or equal to 0, the condition will ALWAYS be true.
