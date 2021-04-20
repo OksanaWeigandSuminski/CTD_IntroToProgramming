@@ -82,3 +82,10 @@ Using a consistent and descriptive commenting approach makes your functions more
 
 When calling a function with default parameters, which keyword acts as a placeholder for the argument you want to skip?
 ***undefined***
+
+## Arrays ##
+
+#### Learning Objectives ####
+- Store Multiple Values in an Array
+- Loop Through Arrays
+- Multidimensional Arrays
